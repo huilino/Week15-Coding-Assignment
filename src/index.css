@@ -11,3 +11,123 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{
+  margin:100px auto;
+  width:600px;
+  height:800px;
+  background-color: rgb(227, 178, 80);
+  border-radius: 10px;
+  box-shadow: 4px 10px 10px 5px rgb(191, 206, 211);
+  overflow:auto;
+  
+}
+.todoapp{
+  text-align: center; 
+}
+
+.todo-button{
+  font-size: 30px;
+  font-family:cursive;
+  background-color: rgb(211, 206, 194);
+  color: rgb(33, 33, 28);
+  padding: 15px 20px 15px 20px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(21, 17, 9)
+}
+
+.btn-text-center{
+  text-align: center;
+}
+
+.mytodos{
+ font-size: 25px;
+ text-align: left;
+ padding:10px;
+}
+
+h1{
+  padding:20px;
+  text-align: center;
+  font-family: cursive;
+}
+
+.todo-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(41, 41, 38); 
+  outline-style:double;
+  margin:15px;
+  border-radius:10px;
+  color:rgb(197, 208, 167);
+
+}
+
+.todo-row:hover{
+  background-color: rgb(131, 86, 22);
+}
+
+.icons{
+  display: flex; 
+  justify-content: space-around;
+  cursor: pointer;
+  font-size:20px;
+}
+
+.todo-left{
+  font-size: 25px;
+  font-family: cursive;
+  border:5px solid rgb(31, 31, 29);
+  padding:10px;
+  background-color: rgb(235, 222, 176);
+  border-radius:10px;
+  margin-top:30px;
+
+}
+.todo-left:hover{
+  background-color:rgb(183, 7, 25)
+}
+.add-todo{
+  display:flex;
+  justify-content: center;
+}
+
+.todo-row:nth-child(2n){
+  background:linear-gradient(90deg,
+  rgb(177, 130, 44) 0%,
+  rgb(76, 69, 54) 100%
+  ); 
+}
+
+.close-button{
+  background-color: rgb(147, 148, 133);
+  font-family:cursive;
+  
+}
+
+.save-button{
+  background-color: rgb(207, 121, 45) ;
+  font-family:cursive;
+}
+
+.modal-header{
+  background-color: rgb(45, 34, 23);
+  color:whitesmoke;
+}
+
+.modal-footer{
+  background-color: rgb(45, 34, 23);
+  
+}
+
+.modal-body{
+  background-color: rgb(227, 199, 162);
+}
+
+.todo-input{
+  background-image: linear-gradient(to right,rgb(230, 165, 24), rgb(255, 213, 0));
+  padding:10px;
+  font-size:25px;
+  border-radius: 8px;
+}
